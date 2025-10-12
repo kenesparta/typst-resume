@@ -1,14 +1,13 @@
 #set page(
   paper: "a4",
-  margin: (top: 1.2cm, bottom: 1.2cm, left: 1.2cm, right: 1.2cm)
+  margin: (top: .9cm, bottom: .9cm, left: .9cm, right: .9cm)
 )
 
-#set par(justify: true, leading: 1em)
+#set par(justify: true, leading: 0.7em)
 
 #set text(
-  font: ("Domine", "Domine"),
-  weight: 500,
-  size: 1em,
+  font: ("Asar", "Asar"),
+  size: 0.95em,
 )
 
 #include "title.typ"
@@ -18,3 +17,9 @@
 #include "intro.typ"
 
 #include "experience.typ"
+
+#include "education.typ"
+
+#include "skills.typ"
+
+#include "projects.typ"

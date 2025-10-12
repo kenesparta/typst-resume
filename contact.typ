@@ -1,7 +1,5 @@
-#import "config.typ": secondary_color
-
 #let new_contact(goto_link, show_text) = {
-    text(weight: 900, fill: secondary_color, size: .9em)[#link(goto_link)[#show_text]]
+    text(font: ("Cascadia Mono", "Cascadia Mono"), size: 0.95em)[#link(goto_link)[#show_text]]
 }
 
 #grid(
