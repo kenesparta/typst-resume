@@ -2,20 +2,126 @@
     {
         "company": "BairesDev LLC",
         "position": "Senior Software Engineer",
-        "from": "10-2019",
+        "from": "10-2022",
         "to": "Present",
+        "short_description": "",
         "description": [
             {
-                "situation": "",
-                "tasks": "",
-                "action": "",
-                "result": ""
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
             },
             {
-                "situation": "",
-                "tasks": "",
-                "action": "",
-                "result": ""
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            }
+        ]
+    },
+    {
+        "company": "Quickplay",
+        "position": "Senior Software Engineer",
+        "from": "08-2021",
+        "to": "09-2022",
+        "short_description": "",
+        "description": [
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            },
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            }
+        ]
+    },
+    {
+        "company": "Land Gorilla LLC",
+        "position": "Software Engineer",
+        "from": "10-2019",
+        "to": "08-2021",
+        "short_description": "",
+        "description": [
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            },
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            }
+        ]
+    },
+    {
+        "company": "Freelancer",
+        "position": "Software Engineer",
+        "from": "01-2018",
+        "to": "09-2019",
+        "short_description": "",
+        "description": [
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            },
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            }
+        ]
+    },
+    {
+        "company": "2Triangle",
+        "position": "Software Engineer",
+        "from": "01-2017",
+        "to": "12-2017",
+        "short_description": "",
+        "description": [
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            },
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            }
+        ]
+    },
+    {
+        "company": "Ware Digital",
+        "position": "Software Engineer",
+        "from": "03-2016",
+        "to": "12-2016",
+        "short_description": "",
+        "description": [
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
+            },
+            {
+                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
+                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
             }
         ]
     }
