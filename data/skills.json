@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Rust",
+    "experience_time": "1y"
+  },
+  {
+    "name": "Golang",
+    "experience_time": "3y"
+  },
+  {
+    "name": "Docker",
+    "experience_time": "3y"
+  },
+  {
+    "name": "AWS",
+    "experience_time": "3y"
+  },
+  {
+    "name": "Python",
+    "experience_time": "2y"
+  },
+  {
+    "name": "JavaScript",
+    "experience_time": "2y"
+  },
+  {
+    "name": "Terraform",
+    "experience_time": "2y"
+  },
+  {
+    "name": "PostgreSQL",
+    "experience_time": "2y"
+  },
+  {
+    "name": "MySQL",
+    "experience_time": "2y"
+  },
+  {
+    "name": "MongoDB",
+    "experience_time": "2y"
+  },
+  {
+    "name": "Redis",
+    "experience_time": "1y"
+  },
+  {
+    "name": "GCP",
+    "experience_time": "2y"
+  },
+  {
+    "name": "Kubernetes",
+    "experience_time": "1y"
+  },
+  {
+    "name": "PHP",
+    "experience_time": "1y"
+  },
+  {
+    "name": "Saltstack",
+    "experience_time": "1y"
+  }
+]

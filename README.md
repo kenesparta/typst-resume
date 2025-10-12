@@ -1,1 +1,2 @@
-# typst-resume
+# Resume made with Typst
+
