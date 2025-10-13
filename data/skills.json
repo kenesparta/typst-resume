@@ -8,14 +8,6 @@
     "experience_time": "3y"
   },
   {
-    "name": "Docker",
-    "experience_time": "3y"
-  },
-  {
-    "name": "AWS",
-    "experience_time": "3y"
-  },
-  {
     "name": "Python",
     "experience_time": "2y"
   },
@@ -24,8 +16,36 @@
     "experience_time": "2y"
   },
   {
+    "name": "PHP",
+    "experience_time": "2y"
+  },
+  {
+    "name": "Docker",
+    "experience_time": "3y"
+  },
+  {
+    "name": "AWS",
+    "experience_time": "3y"
+  },
+  {
+    "name": "GCP",
+    "experience_time": "2y"
+  },
+  {
+    "name": "GitHub Actions",
+    "experience_time": "3y"
+  },
+  {
+    "name": "Kubernetes",
+    "experience_time": "1y"
+  },
+  {
     "name": "Terraform",
     "experience_time": "2y"
+  },
+  {
+    "name": "Saltstack",
+    "experience_time": "1y"
   },
   {
     "name": "PostgreSQL",
@@ -41,22 +61,6 @@
   },
   {
     "name": "Redis",
-    "experience_time": "1y"
-  },
-  {
-    "name": "GCP",
-    "experience_time": "2y"
-  },
-  {
-    "name": "Kubernetes",
-    "experience_time": "1y"
-  },
-  {
-    "name": "PHP",
-    "experience_time": "1y"
-  },
-  {
-    "name": "Saltstack",
     "experience_time": "1y"
   }
 ]

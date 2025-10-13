@@ -3,21 +3,14 @@
         "company": "BairesDev LLC",
         "position": "Senior Software Engineer",
         "from": "10-2022",
-        "to": "Present",
-        "short_description": "short description",
+        "to": "",
+        "short_description": "Manage and enhance partners' API integrations based on their requirements.",
         "description": [
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            },
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            }
+            "Architected and established the necessary infrastructure and tools for a new partner integration to securely and reliably display energy plans on the platform.",
+            "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings.",
+            "Executed the complete Software Development Life Cycle for the integration, encompassing development, rigorous testing, and successful deployment to the production environment.",
+            "Engineered automated alerting and monitoring workflows to proactively detect integration errors; drove incident resolution by generating detailed tickets and executing immediate code fixes.",
+            "Mentored new developers on the enrollment business logic and processes, speeding up team integration and understanding of core functionality."
         ]
     },
     {
@@ -25,20 +18,9 @@
         "position": "Senior Software Engineer",
         "from": "08-2021",
         "to": "09-2022",
-        "short_description": "short description",
+        "short_description": "Maintained and enhanced a robust, microservices-based video-on-demand platform.",
         "description": [
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            },
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            }
+            ""
         ]
     },
     {
@@ -48,18 +30,7 @@
         "to": "08-2021",
         "short_description": "short description",
         "description": [
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            },
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            }
+            "s"
         ]
     },
     {
@@ -69,18 +40,7 @@
         "to": "09-2019",
         "short_description": "short description",
         "description": [
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            },
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            }
+            "rt"
         ]
     },
     {
@@ -90,18 +50,7 @@
         "to": "12-2017",
         "short_description": "short description",
         "description": [
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            },
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            }
+            "re"
         ]
     },
     {
@@ -111,18 +60,7 @@
         "to": "12-2016",
         "short_description": "short description",
         "description": [
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            },
-            {
-                "situation": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "tasks": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "action": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat.",
-                "result": "Cras molestie augue vitae nisl lobortis, vel consequat leo condimentum. Praesent in tempus urna. Sed imperdiet risus id porttitor volutpat."
-            }
+            "dasda"
         ]
     }
 ]

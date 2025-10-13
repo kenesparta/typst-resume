@@ -11,36 +11,16 @@
   #if experience.description.len() > 0 [
 
     #text(weight: 500)[#experience.short_description]
-
+    #v(-0.4em)
     #list(
       ..experience.description.map(desc => {
-        if desc.situation != "" or desc.tasks != "" or desc.action != "" or desc.result != "" {
-          let content = ""
-          if desc.situation != "" {
-            content += desc.situation
-            content += h(.3em)
-          }
-
-          if desc.tasks != "" {
-            content += desc.tasks
-            content += h(.3em)
-          }
-
-          if desc.action != "" {
-            content += desc.action
-            content += h(.3em)
-          }
-
-          if desc.result != "" {
-            content += desc.result
-            content += h(.3em)
-          }
-
-          [#content]
+        if desc != "" {
+          [#desc]
+          v(0.3em)
         }
       }).filter(item => item != none)
     )
   ]
 
-  #v(0.5em)
+  #v(-0.2em)
 ]

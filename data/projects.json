@@ -1,3 +1,23 @@
 [
-  {}
+  {
+    "name": "Capstone Project",
+    "institution": "Let's get Rusty",
+    "description": [
+      "123"
+    ]
+  },
+  {
+    "name": "Bootcamp Project",
+    "institution": "Let's get Rusty",
+    "description": [
+      "123"
+    ]
+  },
+  {
+    "name": "Quizz Project",
+    "institution": "Personal",
+    "description": [
+      "123"
+    ]
+  }
 ]

@@ -1,3 +1,25 @@
-#import "config.typ": section_title
+#import "config.typ": section_title, primary_color, accent_color, at_text
 
 #section_title("Projects")
+
+#let projects_data = json("data/projects.json")
+
+#for project in projects_data [
+  #text(fill: primary_color, weight: 700, size: 1.15em)[#project.name]
+  #h(1fr)
+  #text(fill: accent_color, weight: 400, size: 1.15em)[#project.institution]
+  #v(-0.5em)
+
+  #if project.description.len() > 0 [
+    #list(
+      ..project.description.map(desc => {
+        if desc != "" {
+          [#desc]
+          v(0.3em)
+        }
+      }).filter(item => item != none)
+    )
+  ]
+
+  #v(-0.2em)
+]

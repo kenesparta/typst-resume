@@ -7,8 +7,8 @@
 
 
 #let format_date(date_str) = {
-  if date_str == "Present" {
-    return "Present"
+  if date_str == "" {
+    return "Now"
   }
 
   let parts = date_str.split("-")
@@ -20,8 +20,8 @@
   let year = parts.at(1)
 
   let months = (
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
   )
 
   let month_name = months.at(month_num - 1)
