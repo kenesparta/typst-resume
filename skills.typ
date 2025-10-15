@@ -1,32 +1,27 @@
-#import "config.typ": section_title, secondary_color, accent_color
+#import "config.typ": section_title, accent_color
 
 #section_title("Skills")
 
 #let skills_data = json("data/skills.json")
 
-#let skill_card(name, experience_time) = {
-  box[
-    #box(
-      fill: secondary_color.lighten(90%),
-      stroke: secondary_color + 1pt,
-      inset: .6em,
-    )[
-      #align(center)[
-        #text(weight: 700, size: 0.9em)[#name]
-      ]
-    ]#box(
-      fill: accent_color.lighten(90%),
-      stroke: secondary_color + 1pt,
-      inset: .6em,
-    )[
-      #align(center)[
-        #text(fill:accent_color, weight: 500, size: 0.9em)[#experience_time]
-      ]
-    ]
-  ]
-}
-
-#for skill in skills_data {
-  skill_card(skill.name, skill.experience_time)
+#for skill_category in skills_data {
+  text(weight: 500, size: 1em)[#skill_category.category]
   h(.5em)
+  for (index, item) in skill_category.items.enumerate() {
+    if item != "" {
+      box(
+        fill: accent_color.lighten(85%),
+        inset: .4em,
+        radius: .4em,
+        baseline: 0.4em
+      )[
+        #text(size: 0.88em)[#item]
+      ]
+      if index < skill_category.items.len() - 1 and skill_category.items.at(index + 1) != "" {
+        h(0.5em)
+      }
+    }
+  }
+
+  v(-0.3em)
 }

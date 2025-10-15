@@ -1,23 +1,12 @@
 [
   {
-    "name": "Capstone Project",
+    "name": "Linking an embedded micro:bit via BLE to a real-time web dashboard.",
     "institution": "Let's get Rusty",
     "description": [
-      "123"
-    ]
-  },
-  {
-    "name": "Bootcamp Project",
-    "institution": "Let's get Rusty",
-    "description": [
-      "123"
-    ]
-  },
-  {
-    "name": "Quizz Project",
-    "institution": "Personal",
-    "description": [
-      "123"
+      "Built a multi-crate system including device firmware, a BLE listener, and an Axum WebSocket server to process and display live button events.",
+      "It connects an embedded micro:bit v2 (running custom firmware) via Bluetooth Low Energy (BLE) to a host-side listener.",
+      "The listener forwards the device's button events to an Axum-based WebSocket server, which then broadcasts the data to a web dashboard for live, real-time visualization.",
+      "This project demonstrates full-stack communication from hardware to a web interface."
     ]
   }
 ]

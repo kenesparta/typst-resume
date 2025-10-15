@@ -3,12 +3,12 @@
   margin: (top: .9cm, bottom: .9cm, left: .9cm, right: .9cm)
 )
 
-#set par(justify: true, leading: 0.7em)
+#set par(justify: true, leading: 0.6em)
 
 #set text(
   font: ("Solway", "Solway"),
   weight: 300,
-  size: 0.95em,
+  size: 0.8em,
 )
 
 #include "title.typ"

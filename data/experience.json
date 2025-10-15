@@ -2,9 +2,10 @@
     {
         "company": "BairesDev LLC",
         "position": "Senior Software Engineer",
+        "location": "Remote, USA",
         "from": "10-2022",
         "to": "",
-        "short_description": "Manage and enhance partners' API integrations based on their requirements.",
+        "short_description": "Manage and enhance partners API integrations based on their requirements.",
         "description": [
             "Architected and established the necessary infrastructure and tools for a new partner integration to securely and reliably display energy plans on the platform.",
             "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings.",
@@ -18,9 +19,12 @@
         "position": "Senior Software Engineer",
         "from": "08-2021",
         "to": "09-2022",
-        "short_description": "Maintained and enhanced a robust, microservices-based video-on-demand platform.",
+        "short_description": "Maintained and enhanced a microservices-based video-on-demand (VOD) platform.",
         "description": [
-            ""
+            "Optimized the codebase for core VOD processing services (Audio, Video, Subtitles, Media Assets, and DRM) to ensure compliance with multiple VOD delivery standards and improve encoding quality consistency.",
+            "Implemented comprehensive automated testing within the CI/CD framework, enforcing quality control for microservice deployments and preventing issues from reaching production.",
+            "Applied continuous static code analysis and refactoring, improving average code quality scores on the VOD platform microservices.",
+            "Guided new developers through the end-to-end VOD encoding pipeline and comprehensive quality assurance process, accelerating team ramp-up and productivity."
         ]
     },
     {
@@ -28,9 +32,12 @@
         "position": "Software Engineer",
         "from": "10-2019",
         "to": "08-2021",
-        "short_description": "short description",
+        "short_description": "Optimized loan management system and on-site inspection APIs with enhanced security.",
         "description": [
-            "s"
+            "Architected and deployed a private API for construction loan management, integrating on-site inspection functionality and adhering to the Open API Specification (OAS) and architecture's best practices principles.",
+            "Significantly optimized API call efficiency for credential management, resulting in a 50% reduction in CPU usage.",
+            "Enhanced API security by implementing an advanced encryption and authentication layer for user session data.",
+            "Developed a real-time system monitoring solution to automate and manage network access controls for virtual machines."
         ]
     },
     {
@@ -38,9 +45,11 @@
         "position": "Software Engineer",
         "from": "01-2018",
         "to": "09-2019",
-        "short_description": "short description",
+        "short_description": "Built secure, efficient APIs for government health and agriculture offices.",
         "description": [
-            "rt"
+            "Architected a private REST API to significantly improve the efficiency of documentary procedures for the Government Health Office. The solution enhanced internal workflow and information management.",
+            "Created a private API for the Government Agriculture Office to register and monitor farming production metrics, including seed-time, harvest data, and livestock farming activities.",
+            "Architected and configured the network infrastructure for both the Government Health and Agriculture Offices based on a three-tier architecture. This involved implementing security-focused networking and load-balancing to drastically improve application availability, enhance security, and ensure database isolation."
         ]
     },
     {
@@ -48,9 +57,11 @@
         "position": "Software Engineer",
         "from": "01-2017",
         "to": "12-2017",
-        "short_description": "short description",
+        "short_description": "Developed a construction ERP to ensure item quantity and quality accountability.",
         "description": [
-            "re"
+            "Designed and built the core functionality of an ERP web application that manages end-to-end construction projects, specifically controlling the quantities and quality standards for every build item.",
+            "Optimized the financial workflow by improving and deploying the accountability API to efficiently manage and process all project billing information.",
+            "Improved data accessibility and inventory control for site personnel by integrating the inventory API directly into existing company mobile applications."
         ]
     },
     {
@@ -58,9 +69,9 @@
         "position": "Software Engineer",
         "from": "03-2016",
         "to": "12-2016",
-        "short_description": "short description",
+        "short_description": "Implement web application to streamline the management of patient orders.",
         "description": [
-            "dasda"
+            "Architected a comprehensive web-based platform for managing patient orders and clinical results, including configuring and securing the necessary cloud infrastructure."
         ]
     }
 ]

@@ -1,66 +1,38 @@
 [
   {
-    "name": "Rust",
-    "experience_time": "1y"
+    "category": "Programming Languages",
+    "items": [
+      "Rust",
+      "Golang",
+      "Python",
+      "JavaScript"
+    ]
   },
   {
-    "name": "Golang",
-    "experience_time": "3y"
+    "category": "Orchestration",
+    "items": [
+      "Docker",
+      "GitHub Actions",
+      "Terraform",
+      "Kubernetes",
+      "Apache Kafka"
+    ]
   },
   {
-    "name": "Python",
-    "experience_time": "2y"
+    "category": "Cloud Providers",
+    "items": [
+      "Amazon Web Services",
+      "Google Cloud Platform",
+      "Digital Ocean"
+    ]
   },
   {
-    "name": "JavaScript",
-    "experience_time": "2y"
-  },
-  {
-    "name": "PHP",
-    "experience_time": "2y"
-  },
-  {
-    "name": "Docker",
-    "experience_time": "3y"
-  },
-  {
-    "name": "AWS",
-    "experience_time": "3y"
-  },
-  {
-    "name": "GCP",
-    "experience_time": "2y"
-  },
-  {
-    "name": "GitHub Actions",
-    "experience_time": "3y"
-  },
-  {
-    "name": "Kubernetes",
-    "experience_time": "1y"
-  },
-  {
-    "name": "Terraform",
-    "experience_time": "2y"
-  },
-  {
-    "name": "Saltstack",
-    "experience_time": "1y"
-  },
-  {
-    "name": "PostgreSQL",
-    "experience_time": "2y"
-  },
-  {
-    "name": "MySQL",
-    "experience_time": "2y"
-  },
-  {
-    "name": "MongoDB",
-    "experience_time": "2y"
-  },
-  {
-    "name": "Redis",
-    "experience_time": "1y"
+    "category": "Databases",
+    "items": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis"
+    ]
   }
 ]

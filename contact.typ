@@ -11,4 +11,4 @@
   new_contact("https://kenesparta.dev", "kenesparta.dev")
 )
 
-#v(0.2em)
+#v(-0.1em)
