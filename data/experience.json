@@ -2,7 +2,7 @@
     {
         "company": "BairesDev LLC",
         "position": "Senior Software Engineer",
-        "location": "Remote, USA",
+        "location": "Remote, US",
         "from": "10-2022",
         "to": "",
         "short_description": "Manage and enhance partners API integrations based on their requirements.",
@@ -17,6 +17,7 @@
     {
         "company": "Quickplay",
         "position": "Senior Software Engineer",
+        "location": "Remote, Canada",
         "from": "08-2021",
         "to": "09-2022",
         "short_description": "Maintained and enhanced a microservices-based video-on-demand (VOD) platform.",
@@ -30,6 +31,7 @@
     {
         "company": "Land Gorilla LLC",
         "position": "Software Engineer",
+        "location": "Remote, US",
         "from": "10-2019",
         "to": "08-2021",
         "short_description": "Optimized loan management system and on-site inspection APIs with enhanced security.",
@@ -43,6 +45,7 @@
     {
         "company": "Freelancer",
         "position": "Software Engineer",
+        "location": "Onsite, Peru",
         "from": "01-2018",
         "to": "09-2019",
         "short_description": "Built secure, efficient APIs for government health and agriculture offices.",
@@ -55,6 +58,7 @@
     {
         "company": "2Triangle",
         "position": "Software Engineer",
+        "location": "Remote, Brazil",
         "from": "01-2017",
         "to": "12-2017",
         "short_description": "Developed a construction ERP to ensure item quantity and quality accountability.",
@@ -67,6 +71,7 @@
     {
         "company": "Ware Digital",
         "position": "Software Engineer",
+        "location": "Onsite, Brazil",
         "from": "03-2016",
         "to": "12-2016",
         "short_description": "Implement web application to streamline the management of patient orders.",

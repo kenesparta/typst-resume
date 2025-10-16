@@ -5,7 +5,7 @@
 #for experience in experience_data [
   #text(fill: primary_color, weight: 500, size: 1.1em)[#experience.position #at_text #experience.company]
   #h(1fr)
-  #text(fill: accent_color, weight: 500, size: .95em)[#format_date(experience.from) — #format_date(experience.to)]
+  #text(fill: accent_color, weight: 500, size: .95em)[#format_date(experience.from) — #format_date(experience.to) | #experience.location]
   #v(-0.5em)
 
   #if experience.description.len() > 0 [
