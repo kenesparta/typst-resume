@@ -1,14 +1,14 @@
 #set page(
   paper: "a4",
-  margin: (top: .9cm, bottom: .9cm, left: .9cm, right: .9cm)
+  margin: (top: 4.5em, bottom: 4.5em, left: 4.5em, right: 4.5em)
 )
 
 #set par(justify: true, leading: 0.6em)
 
 #set text(
-  font: ("Solway", "Solway"),
-  weight: 300,
-  size: 0.8em,
+  font: ("Open Sans", "Open Sans"),
+  weight: 400,
+  size: .8em,
 )
 
 #include "title.typ"

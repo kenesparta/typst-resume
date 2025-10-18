@@ -5,13 +5,14 @@
         "location": "Remote, US",
         "from": "10-2022",
         "to": "",
-        "short_description": "Manage and enhance partners API integrations based on their requirements.",
+        "short_description": "Manage and enhance partner system integrations based on their requirements.",
         "description": [
-            "Architected and established the necessary infrastructure and tools for a new partner integration to securely and reliably display energy plans on the platform.",
+            "Engineered a Rust CLI utility to improve testing velocity and data verification by automating AWS S3 and DynamoDB data workflows. Features include locally downloading S3 transaction data with automatic formatting and dynamically updating DynamoDB credit check records.",
+            "Engineered the complete foundational infrastructure, development lifecycle, and tooling for a new partner integration, ensuring the secure, reliable display of energy plans. Established and deployed automated systems for credit check verification prerequisite to user plan enrollment.",
             "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings.",
             "Executed the complete Software Development Life Cycle for the integration, encompassing development, rigorous testing, and successful deployment to the production environment.",
             "Engineered automated alerting and monitoring workflows to proactively detect integration errors; drove incident resolution by generating detailed tickets and executing immediate code fixes.",
-            "Mentored new developers on the enrollment business logic and processes, speeding up team integration and understanding of core functionality."
+            "Led coworkers through mentoring sessions on the enrollment business logic and processes, which accelerated team integration and boosted their proficiency with core system functionality."
         ]
     },
     {
@@ -25,7 +26,7 @@
             "Optimized the codebase for core VOD processing services (Audio, Video, Subtitles, Media Assets, and DRM) to ensure compliance with multiple VOD delivery standards and improve encoding quality consistency.",
             "Implemented comprehensive automated testing within the CI/CD framework, enforcing quality control for microservice deployments and preventing issues from reaching production.",
             "Applied continuous static code analysis and refactoring, improving average code quality scores on the VOD platform microservices.",
-            "Guided new developers through the end-to-end VOD encoding pipeline and comprehensive quality assurance process, accelerating team ramp-up and productivity."
+            "Led new coworkers through the end-to-end VOD encoding pipeline training and comprehensive quality assurance process, directly reducing team ramp-up time and increasing overall productivity."
         ]
     },
     {

@@ -1,10 +1,6 @@
-#let primary_color = rgb("#BA4011")
-#let secondary_color = rgb("#F88426")
-#let accent_color = rgb("#5467D4")
-
-#let primary_color = rgb("#0077B6")
-#let secondary_color = rgb("#2A52BE")
-#let accent_color = rgb("#009996")
+#let primary_color = rgb("#000090")
+#let secondary_color = rgb("#0000DD")
+#let accent_color = rgb("#0000DD")
 
 #let at_text = text(font: ("Capriola", "Capriola"),  weight: 700, size: 0.95em)[\@]
 
@@ -33,8 +29,13 @@
 
 
 #let section_title(title_name) = {
-    v(0.1em)
-    text(font: ("Capriola", "Capriola"), fill: secondary_color, weight: 900, size: 1.1em)[#h(-0.02em) #title_name]
+    v(0.3em)
+    text(font: ("Capriola", "Capriola"), fill: secondary_color, weight: 900, size: 1.35em)[#h(-0.02em) #title_name]
     v(-0.9em)
-    line(length: 100%, stroke: (paint: secondary_color.lighten(0%), dash: "dashed"))
+    line(length: 100%, stroke: (paint: secondary_color.lighten(10%), dash: "dashed"))
+}
+
+
+#let new_contact(goto_link, show_text) = {
+    text(font: ("Google Sans Code", "Google Sans Code"), weight: 600,size: .95em)[#link(goto_link)[#show_text]]
 }

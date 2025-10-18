@@ -1,6 +1,4 @@
-#let new_contact(goto_link, show_text) = {
-    text(font: ("Cascadia Mono", "Cascadia Mono"), size: 0.9em)[#link(goto_link)[#show_text]]
-}
+#import "config.typ": new_contact
 
 #grid(
   columns: 4,

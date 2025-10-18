@@ -3,15 +3,15 @@
 #let experience_data = json("data/experience.json")
 
 #for experience in experience_data [
-  #text(fill: primary_color, weight: 500, size: 1.1em)[#experience.position #at_text #experience.company]
+  #text(fill: primary_color, weight: 600, size: 1.15em)[#experience.position #at_text #experience.company]
   #h(1fr)
-  #text(fill: accent_color, weight: 500, size: .95em)[#format_date(experience.from) — #format_date(experience.to) | #experience.location]
-  #v(-0.5em)
+  #text(fill: accent_color, weight: 600, size: 1em)[#format_date(experience.from) — #format_date(experience.to) #h(.2em) • #h(.2em) #experience.location]
+  #v(-0.4em)
 
   #if experience.description.len() > 0 [
 
-    #text(weight: 400)[#experience.short_description]
-    #v(-0.4em)
+    #text(weight: 600)[#experience.short_description]
+    #v(-0.3em)
     #list(
       ..experience.description.map(desc => {
         if desc != "" {
@@ -22,5 +22,5 @@
     )
   ]
 
-  #v(-0.2em)
+  #v(0.15em)
 ]

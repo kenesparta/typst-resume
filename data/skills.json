@@ -34,5 +34,13 @@
       "MongoDB",
       "Redis"
     ]
+  },
+  {
+    "category": "Languages",
+    "items": [
+      "English",
+      "Spanish",
+      "Portuguese"
+    ]
   }
 ]
