@@ -1,4 +1,4 @@
-gen-test:
+gen-local:
 	@typst compile main.typ main.pdf --font-path fonts
 
 gen-release:
