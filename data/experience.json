@@ -8,7 +8,7 @@
         "short_description": "Manage and enhance partner system integrations based on their requirements.",
         "description": [
             "Led and mentored mid-level and senior engineers to accelerate team integration and boost their proficiency with core system functionality.",
-            "Improved data verification and increased testing velocity by engineering developer tooling in Rust to automate AWS S3 and DynamoDB data workflows. This tool was rapidly adopted and integrated into the development workflow and CI/CD pipeline.",
+            "Engineered developer tooling in Rust to automate AWS S3 and DynamoDB data workflows, which improved data verification and increased testing velocity. This tool was rapidly adopted and integrated into the development workflow and CI/CD pipeline",
             "Engineered the complete foundational infrastructure, development lifecycle, and tooling for a new partner integration, ensuring the secure, reliable display of energy plans.",
             "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings."
         ]
