@@ -5,7 +5,7 @@
       "Rust",
       "Golang",
       "Python",
-      "JavaScript"
+      "TypeScript"
     ]
   },
   {
@@ -14,8 +14,9 @@
       "Docker",
       "GitHub Actions",
       "Terraform",
-      "Kubernetes",
-      "Apache Kafka"
+      "K8s",
+      "Apache Kafka",
+      "SaltStack"
     ]
   },
   {
@@ -27,7 +28,7 @@
     ]
   },
   {
-    "category": "Databases",
+    "category": "DBMS",
     "items": [
       "PostgreSQL",
       "MySQL",
@@ -36,11 +37,21 @@
     ]
   },
   {
+    "category": "Tools",
+    "items": [
+      "Axum",
+      "Axios",
+      "Tokio",
+      "Clap",
+      "SQLx"
+    ]
+  },
+  {
     "category": "Languages",
     "items": [
-      "English",
-      "Spanish",
-      "Portuguese"
+      "English (Advanced)",
+      "Spanish (Native)",
+      "Portuguese (Bilingual)"
     ]
   }
 ]
