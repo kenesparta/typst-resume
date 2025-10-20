@@ -35,7 +35,7 @@
         "to": "08-2021",
         "short_description": "Optimized loan management system and on-site inspection APIs with enhanced security.",
         "description": [
-            "Architected and deployed a private API for construction loan management, integrating on-site inspection functionality and adhering to the Open API Specification (OAS) and architecture's best practices principles.",
+            "Architected and deployed a private API for construction loan management, integrating on-site inspection functionality and adhering to the Open API Specification and architecture's best practices principles.",
             "Significantly optimized API call efficiency for credential management, resulting in a 50% reduction in CPU usage."
         ]
     },

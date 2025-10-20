@@ -16,6 +16,7 @@
 
   #if project.description.len() > 0 [
     #list(
+      marker: text(size: 1.5em, baseline: -0.1em)[•],
       ..project.description.map(desc => {
         if desc != "" {
           [#desc]

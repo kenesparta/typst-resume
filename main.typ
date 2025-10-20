@@ -1,6 +1,6 @@
 #set page(
   paper: "a4",
-  margin: (top: 4em, bottom: 4em, left: 4em, right: 4em)
+  margin: (top: 3.8em, bottom: 3.8em, left: 3.8em, right: 3.8em)
 )
 
 #set par(justify: true, leading: 0.6em)

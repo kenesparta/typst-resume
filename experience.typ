@@ -5,7 +5,7 @@
 #for experience in experience_data [
   #text(fill: primary_color, weight: 600, size: 1.15em)[#experience.position #at_text #experience.company]
   #h(1fr)
-  #text(fill: accent_color, weight: 600, size: 1em)[#format_date(experience.from) — #format_date(experience.to) #h(.2em) • #h(.2em) #experience.location]
+  #text(fill: accent_color, weight: 600, size: 1em)[#format_date(experience.from) — #format_date(experience.to) #h(.2em) #text(size: 1.3em, baseline: 0.12em)[•] #h(.2em) #experience.location]
   #v(-0.4em)
 
   #if experience.description.len() > 0 [
@@ -13,6 +13,7 @@
     #text(weight: 600)[#experience.short_description]
     #v(-0.3em)
     #list(
+      marker: text(size: 1.5em, baseline: -0.1em)[•],
       ..experience.description.map(desc => {
         if desc != "" {
           [#desc]
