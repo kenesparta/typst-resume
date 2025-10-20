@@ -9,6 +9,18 @@
     ]
   },
   {
+    "category": "Tools",
+    "items": [
+      "Axum",
+      "Axios",
+      "Tokio",
+      "Clap",
+      "SQLx",
+      "Typst",
+      "Leptos"
+    ]
+  },
+  {
     "category": "Orchestration",
     "items": [
       "Docker",
@@ -37,21 +49,11 @@
     ]
   },
   {
-    "category": "Tools",
-    "items": [
-      "Axum",
-      "Axios",
-      "Tokio",
-      "Clap",
-      "SQLx"
-    ]
-  },
-  {
     "category": "Languages",
     "items": [
-      "English (Advanced)",
-      "Spanish (Native)",
-      "Portuguese (Bilingual)"
+      "English (Fluent)",
+      "Portuguese (Fluent)",
+      "Spanish (Native)"
     ]
   }
 ]

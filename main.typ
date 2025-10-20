@@ -1,6 +1,6 @@
 #set page(
   paper: "a4",
-  margin: (top: 4.5em, bottom: 4.5em, left: 4.5em, right: 4.5em)
+  margin: (top: 4em, bottom: 4em, left: 4em, right: 4em)
 )
 
 #set par(justify: true, leading: 0.6em)
@@ -8,7 +8,7 @@
 #set text(
   font: ("Open Sans", "Open Sans"),
   weight: 400,
-  size: .8em,
+  size: .911em,
 )
 
 #include "title.typ"
