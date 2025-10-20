@@ -20,11 +20,11 @@ jobs:
         uses: typst-community/setup-typst@v3
 
       - name: Build PDF using Makefile
-        run: make gen-release
+        run: make gen/build
 
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
         with:
           name: resume-pdf
           path: '*.pdf'
-          retention-days: 180
+          retention-days: 90

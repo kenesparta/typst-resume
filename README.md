@@ -10,8 +10,7 @@ typography and layout.
 
 ## Prerequisites
 
-- Typst (0.11+ recommended)
-    - Install: https://typst.app/docs/install/
+- [Typst Install](https://typst.app/open-source)
 - Make (optional, for using the provided Makefile)
 - Fonts are bundled in `fonts/` and referenced automatically during compilation.
 
