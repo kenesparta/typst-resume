@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PDF_FILENAME: ken_esparta_cv.pdf
+      AWS_REGION: us-east-1
 
     steps:
       - name: Checkout repository
@@ -30,15 +31,13 @@ jobs:
           name: resume-pdf
           path: ${{ env.PDF_FILENAME }}
 
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
 
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
-
-      - name: Upload PDF to GCS
+      - name: Upload PDF to S3
         run: |
-          gsutil cp ${{ env.PDF_FILENAME }} gs://cdn.kenesparta.dev/cv/
-          gsutil -m setmeta -h "Cache-Control:public, max-age=3600" gs://cdn.kenesparta.dev/cv/${{ env.PDF_FILENAME }}
+          aws s3 cp ${{ env.PDF_FILENAME }} s3://cdn.kenesparta.dev/cv/ --cache-control "public, max-age=3600"
