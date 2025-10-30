@@ -1,6 +1,6 @@
 #set page(
   paper: "a4",
-  margin: (top: 3.8em, bottom: 3.8em, left: 3.8em, right: 3.8em)
+  margin: (top: 3.6em, bottom: 3.6em, left: 3.6em, right: 3.6em)
 )
 
 #set par(justify: true, leading: 0.6em)
@@ -8,7 +8,7 @@
 #set text(
   font: ("Open Sans", "Open Sans"),
   weight: 400,
-  size: .911em,
+  size: .899em,
 )
 
 #include "title.typ"
@@ -18,6 +18,8 @@
 #include "intro.typ"
 
 #include "experience.typ"
+
+#include "additional-experience.typ"
 
 #include "projects.typ"
 

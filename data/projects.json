@@ -1,6 +1,6 @@
 [
   {
-    "name": "Real-Time Button Monitoring Dashboard",
+    "name": "Real-Time Button Event Visualization in Rust",
     "institution": "Let's get Rusty LLC, US",
     "link": "https://github.com/kenesparta/lgrb-capstone-project",
     "link_name": "github.com/kenesparta/lgrb-capstone-project",
@@ -12,7 +12,7 @@
     ]
   },
   {
-    "name": "Rust Auth Service",
+    "name": "Rust Authentication Service with Axum and gRPC",
     "institution": "Let's get Rusty LLC, US",
     "link": "https://github.com/kenesparta/lgrb-auth-service",
     "link_name": "github.com/kenesparta/lgrb-auth-service",

@@ -1,6 +1,7 @@
 #let primary_color = rgb("#000090")
-#let secondary_color = rgb("#0000DD")
-#let accent_color = rgb("#0000DD")
+#let secondary_color = rgb("#0000EE")
+#let accent_color = rgb("#0000EE")
+#let skills_color = rgb("#1188FF")
 
 #let at_text = text(font: ("Capriola", "Capriola"),  weight: 700, size: 0.95em)[\@]
 
@@ -30,7 +31,7 @@
 
 #let section_title(title_name) = {
     v(0.3em)
-    text(font: ("Capriola", "Capriola"), fill: secondary_color, weight: 900, size: 1.35em)[#h(-0.02em) #title_name]
+    text(font: ("Capriola", "Capriola"), fill: secondary_color, weight: 900, size: 1.2em)[#h(-0.02em) #title_name]
     v(-0.9em)
     line(length: 100%, stroke: (paint: secondary_color.lighten(10%), dash: "dashed"))
 }

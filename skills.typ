@@ -1,4 +1,4 @@
-#import "config.typ": section_title, accent_color
+#import "config.typ": section_title, skills_color
 
 #section_title("Skills")
 
@@ -10,7 +10,7 @@
   for (index, item) in skill_category.items.enumerate() {
     if item != "" {
       box(
-        fill: accent_color.lighten(92%),
+        fill: skills_color.lighten(90%),
         inset: .6em,
         radius: 1em,
         baseline: .6em
@@ -18,7 +18,7 @@
         #text(weight: 500, size: .9em)[#item]
       ]
       if index < skill_category.items.len() - 1 and skill_category.items.at(index + 1) != "" {
-        h(.5em)
+        h(.7em)
       }
     }
   }

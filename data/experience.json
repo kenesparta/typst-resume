@@ -8,7 +8,7 @@
         "short_description": "Manage and enhance partner system integrations based on their requirements.",
         "description": [
             "Led and mentored mid-level and senior engineers to accelerate team integration and boost their proficiency with core system functionality.",
-            "Engineered developer tooling in Rust to automate AWS S3 and DynamoDB data workflows, which improved data verification and increased testing velocity. This tool was rapidly adopted and integrated into the development workflow and CI/CD pipeline",
+            "Engineered developer tooling in Rust to automate AWS S3 and DynamoDB data workflows, which improved data verification and increased testing velocity. This tool was rapidly adopted and integrated into the development workflow and CI/CD pipeline.",
             "Engineered the complete foundational infrastructure, development lifecycle, and tooling for a new partner integration, ensuring the secure, reliable display of energy plans.",
             "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings."
         ]
@@ -37,40 +37,6 @@
         "description": [
             "Architected and deployed a private API for construction loan management, integrating on-site inspection functionality and adhering to the Open API Specification and architecture's best practices principles.",
             "Significantly optimized API call efficiency for credential management, resulting in a 50% reduction in CPU usage."
-        ]
-    },
-    {
-        "company": "Freelancer",
-        "position": "Software Engineer",
-        "location": "Onsite, Peru",
-        "from": "01-2018",
-        "to": "09-2019",
-        "short_description": "Built secure, efficient APIs for government health and agriculture offices.",
-        "description": [
-            "Architected a private REST API to significantly improve the efficiency of documentary procedures for the Government Health Office. The solution enhanced internal workflow and information management.",
-            "Created a private API for the Government Agriculture Office to register and monitor farming production metrics, including seed-time, harvest data, and livestock farming activities."
-        ]
-    },
-    {
-        "company": "2Triangle",
-        "position": "Software Engineer",
-        "location": "Remote, Brazil",
-        "from": "01-2017",
-        "to": "12-2017",
-        "short_description": "Developed a construction ERP to ensure item quantity and quality accountability.",
-        "description": [
-            "Designed and built the core functionality of an ERP web application that manages end-to-end construction projects, specifically controlling the quantities and quality standards for every build item."
-        ]
-    },
-    {
-        "company": "Ware Digital",
-        "position": "Software Engineer",
-        "location": "Onsite, Brazil",
-        "from": "03-2016",
-        "to": "12-2016",
-        "short_description": "Implement web application to streamline the management of patient orders.",
-        "description": [
-            "Architected a comprehensive web-based platform for managing patient orders and clinical results, including configuring and securing the necessary cloud infrastructure."
         ]
     }
 ]
