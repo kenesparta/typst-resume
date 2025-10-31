@@ -17,10 +17,10 @@
     "link": "https://github.com/kenesparta/lgrb-auth-service",
     "link_name": "github.com/kenesparta/lgrb-auth-service",
     "description": [
-      "Full-Stack Rust Authentication Service: Built a robust authentication service using Axum (HTTP) and Tonic (gRPC), handling user signup, login, and secure API communication.",
-      "Security & Persistence: Implemented JWT for session management with secure HTTP cookies, used Argon2 for password hashing, and used PostgreSQL with SQLx migrations for persistent user storage.",
-      "Advanced Features: Included optional email-based 2FA and integrated Redis for real-time token revocation (banned tokens).",
-      "Containerized Deployment: Designed for quick deployment with pre-configured Docker/Docker Compose setup, ensuring service isolation and portability."
+      "Built a robust authentication service using Axum (HTTP) and Tonic (gRPC), handling user signup, login, and secure API communication.",
+      "Implemented JWT for session management with secure HTTP cookies, used Argon2 for password hashing, and used PostgreSQL with SQLx migrations for persistent user storage.",
+      "Included optional email-based 2FA and integrated Redis for real-time token revocation (banned tokens).",
+      "Designed for quick deployment with pre-configured Docker/Docker Compose setup, ensuring service isolation and portability."
     ]
   }
 ]

@@ -1,6 +1,6 @@
 #let primary_color = rgb("#000090")
 #let secondary_color = rgb("#0000EE")
-#let accent_color = rgb("#0000EE")
+#let accent_color = rgb("#0000CC")
 #let skills_color = rgb("#1188FF")
 
 #let at_text = text(font: ("Capriola", "Capriola"),  weight: 700, size: 0.95em)[\@]
