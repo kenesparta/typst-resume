@@ -22,7 +22,7 @@
         "short_description": "Maintained and enhanced a microservices-based video-on-demand (VOD) platform.",
         "description": [
             "Led new coworkers through the end-to-end VOD encoding pipeline training and comprehensive quality assurance process, directly reducing team ramp-up time and increasing overall productivity.",
-            "Optimized the codebase for core VOD processing services (Audio, Video, Subtitles, Media Assets, and DRM) to ensure compliance with multiple VOD delivery standards and improve encoding quality consistency.",
+            "Maintained the current codebase for core VOD processing services (Audio, Video, Subtitles, Media Assets, and DRM) and monitored system health to ensure continuous and stable operation.",
             "Implemented comprehensive automated testing within the CI/CD framework, enforcing quality control for microservice deployments and preventing issues from reaching production.",
             "Applied continuous static code analysis and refactoring, improving average code quality scores on the VOD platform microservices."
         ]
