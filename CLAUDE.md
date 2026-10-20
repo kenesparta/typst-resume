@@ -14,28 +14,34 @@ make gen/build      # -> ken_esparta_cv.pdf (the name CI publishes)
 make gen/revision   # -> ken_esparta_cv_<hash>.pdf
 make clean          # delete every *.pdf in the root
 
-# Direct build; --font-path fonts is required or the bundled fonts are not found
-typst compile main.typ out.pdf --font-path fonts
+# Direct build. --font-path fonts is required; --ignore-system-fonts keeps local output identical to CI.
+typst compile main.typ out.pdf --font-path fonts --ignore-system-fonts
 
 # Render each page to PNG to check the layout visually
-typst compile main.typ 'out-{p}.png' --font-path fonts --ppi 110
+typst compile main.typ 'out-{p}.png' --font-path fonts --ignore-system-fonts --ppi 110
 ```
 
-There are no tests or linters. To verify a change, compile it, then look at the rendered pages. The README still mentions `make gen-test` / `make gen-release` and a committed `main.pdf`; those are out of date, and the Makefile targets above are the real ones.
+There are no tests or linters. To verify a change, compile it, look at the rendered pages, and run `pdftotext out.pdf -` to confirm the text extracts in reading order (that is roughly what an ATS sees).
 
 ## Architecture
 
-- `main.typ` sets the page (A4, margins), paragraph and base text settings, then `#include`s the sections in display order: title, contact, intro, experience, additional-experience, projects, education, skills.
-- `config.typ` holds the shared pieces each section imports: the color palette, `format_date` (`MM-YYYY` → `Mon YYYY`, empty string → `Now`), `section_title`, `new_contact` (monospace link) and `at_text` (the `@` between position and company).
-- Data-driven sections (`experience`, `additional-experience`, `projects`, `education`, `skills`) each call `json("data/<name>.json")` and loop over the entries. Their field names are documented in the README. Bullet lists come from a `description` array, and empty strings are skipped.
-- `title.typ`, `contact.typ` and `intro.typ` have their text hard-coded in the `.typ` file, not in JSON. Edit the role title, contact links and summary there.
-- `experience.typ` has no section title of its own (it follows the intro directly), and `additional-experience.json` entries have no bullets: one line each.
+- `main.typ` holds every document-wide rule: `set document` metadata, page, text, paragraph, block and list settings, and the `show heading.where(level: 1)` rule that styles section titles. It then `#include`s the sections in display order.
+- Sections are real headings (`= Experience`, `= Projects`, …), so they produce PDF bookmarks and stay on the same page as the content after them (headings are sticky by default). The name is a `title` element in `title.typ`.
+- `config.typ` holds the palette (`primary-color`, `secondary-color`, `accent-color`) and helpers: `format-date` (`MM-YYYY` → `Mon YYYY`, empty → `Now`), `mono-link`, `at-sign`, `meta-sep`, and `entry`.
+- `entry(title, meta, subtitle:, meta-size:, bullets:)` is the single layout for every row in experience, additional experience, projects and education. The header is a `grid` (title left, meta right) in a non-breakable block; when there are bullets it is `sticky`, so a header never ends a page without its first bullet.
+- `title.typ`, `contact.typ` and `intro.typ` have their text hard-coded in the `.typ` file, not in JSON. `data/skills.json` is rendered as plain text joined with `·` in a two-column grid, not as pills, because pills scramble the reading order of text extracted from the PDF.
+
+## Typst quirks this layout depends on
+
+- Adjacent block spacings collapse to the larger value. The gap after a heading comes from the heading's `below` together with the global `block(spacing: 0.7em)`. The gap between entries comes from the bullet list's `below` inside `entry`.
+- Between a block and a paragraph, block spacing applies, not `par.spacing`.
+- Inside the `heading` and `title` show rules, `em` is measured against Typst's built-in enlarged text size (1.4× / 1.7× the body text). That is why those rules use `pt`.
+- Capriola only ships a Regular weight; `weight` values on it have no effect.
 
 ## Layout constraints
 
-- The CV is currently two pages. After any content change, render it to PNG and check the page break. A small edit on page 1 can leave a project or job heading alone at the bottom of the page, with its bullets on page 2. Fix that by tightening text on page 1, not by adding manual breaks.
+- The CV is two pages. After any content change, render it to PNG and check both pages.
 - At this font size a bullet line holds roughly 110 characters. Keeping a bullet just under one or two full lines avoids a lone word wrapping onto a new line.
-- Each heading row puts position/name on the left and dates/location (or institution) on the right of the same line, so long names can collide with the right-hand side.
 
 ## Content
 

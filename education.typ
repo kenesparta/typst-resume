@@ -1,16 +1,11 @@
-#import "config.typ": section_title, primary_color, accent_color, at_text, format_date
+#import "config.typ": entry, format-date
 
-#v(-0.2em)
-#section_title("Education")
+= Education
 
-#let education_data = json("data/education.json")
-
-#for education in education_data [
-  #text(fill: primary_color, weight: 600, size: 1.1em)[#education.school, #education.location]
-  #h(1fr)
-  #text(fill: accent_color, weight: 600, size: 1em)[#format_date(education.from) — #format_date(education.to)]
-  #v(-0.5em)
-
-  #text(size: 1em,weight: 500)[#education.degree]
-  #v(0.5em)
-]
+#for school in json("data/education.json") {
+  entry(
+    [#school.school, #school.location],
+    [#format-date(school.from) — #format-date(school.to)],
+    subtitle: text(weight: 500, school.degree),
+  )
+}

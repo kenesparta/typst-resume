@@ -1,11 +1,13 @@
-#import "config.typ": primary_color, accent_color
+#import "config.typ": primary-color, accent-color
 
-#text(font: ("Capriola", "Capriola"), fill: primary_color, weight: 900, size: 1.9em)[#h(-0.1em) Ken Esparta]
+#show title: it => block(below: 10.7pt, text(font: "Capriola", fill: primary-color, weight: "regular", size: 18.8pt, it.body))
 
-#v(-1.2em)
-#text(font: ("Capriola", "Capriola"), fill: accent_color, weight: 900, size: 1.1em)[#h(-0.1em) Senior Software Engineer (Go)]
-
-#v(-0.7em)
-#line(length: 100%, stroke: (paint: accent_color.lighten(10%), dash: "dashed"))
-
-#v(-0.2em)
+#block(
+  width: 100%,
+  inset: (bottom: 0.62em),
+  below: 1em,
+  stroke: (bottom: (paint: accent-color.lighten(10%), dash: "dashed")),
+)[
+  #title[#h(-0.1em)Ken Esparta]
+  #text(font: "Capriola", fill: accent-color, size: 1.1em)[#h(-0.1em)Senior Software Engineer (Go)]
+]

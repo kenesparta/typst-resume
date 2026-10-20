@@ -1,42 +1,44 @@
-#let primary_color = rgb("#000090")
-#let secondary_color = rgb("#0000EE")
-#let accent_color = rgb("#0000CC")
-#let skills_color = rgb("#1188FF")
+#let primary-color = rgb("#000090")
+#let secondary-color = rgb("#0000EE")
+#let accent-color = rgb("#0000CC")
 
-#let at_text = text(font: ("Capriola", "Capriola"),  weight: 700, size: 0.95em)[\@]
+#let at-sign = text(font: "Capriola", size: 0.95em)[\@]
+#let meta-sep = [#h(.2em) #text(size: 1.3em, baseline: 0.12em)[•] #h(.2em)]
 
-
-#let format_date(date_str) = {
-  if date_str == "" {
+// "MM-YYYY" -> "Mon YYYY"; an empty string means the entry is ongoing.
+#let format-date(date) = {
+  if date == "" {
     return "Now"
   }
+  let (month, year) = date.split("-").map(int)
+  datetime(year: year, month: month, day: 1).display("[month repr:short] [year]")
+}
 
-  let parts = date_str.split("-")
-  if parts.len() != 2 {
-    return date_str
-  }
+#let mono-link(dest, body) = link(dest, text(font: "Google Sans Code", weight: 600, size: .95em, body))
 
-  let month_num = int(parts.at(0))
-  let year = parts.at(1)
-
-  let months = (
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+// A section entry: title with its meta (dates, place) on the right, an optional
+// subtitle, then bullets. The header is sticky so it never ends a page without
+// at least its first bullet.
+#let entry(title, meta, subtitle: none, meta-size: 1em, bullets: ()) = {
+  let bullets = bullets.filter(b => b != "")
+  let has-bullets = bullets.len() > 0
+  // Space between entries; it sits below the last block of the entry.
+  let gap = 1.7em
+  block(
+    below: if has-bullets { 0.9em } else { gap },
+    sticky: has-bullets,
+    breakable: false,
+    grid(
+      columns: (1fr, auto),
+      column-gutter: 1em,
+      row-gutter: 0.8em,
+      align: (left + bottom, right + bottom),
+      text(fill: primary-color, weight: 600, size: 1.1em, title),
+      text(fill: accent-color, weight: 600, size: meta-size, meta),
+      ..if subtitle != none { (grid.cell(colspan: 2, subtitle),) },
+    ),
   )
-
-  let month_name = months.at(month_num - 1)
-  return month_name + " " + year
-}
-
-
-#let section_title(title_name) = {
-    v(0.3em)
-    text(font: ("Capriola", "Capriola"), fill: secondary_color, weight: 900, size: 1.2em)[#h(-0.02em) #title_name]
-    v(-0.9em)
-    line(length: 100%, stroke: (paint: secondary_color.lighten(10%), dash: "dashed"))
-}
-
-
-#let new_contact(goto_link, show_text) = {
-    text(font: ("Google Sans Code", "Google Sans Code"), weight: 600,size: .95em)[#link(goto_link)[#show_text]]
+  if has-bullets {
+    block(above: 0.9em, below: gap, list(..bullets))
+  }
 }

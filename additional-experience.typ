@@ -1,13 +1,11 @@
-#import "config.typ": section_title, primary_color, accent_color, at_text, format_date
+#import "config.typ": entry, at-sign, meta-sep, format-date
 
-#v(-0.1em)
-#section_title("Additional Experience")
+= Additional Experience
 
-#let experience_data = json("data/additional-experience.json")
-
-#for experience in experience_data [
-  #text(fill: primary_color, weight: 600, size: 1.1em)[#experience.position #at_text #experience.company] #h(1fr)
-  #text(fill: accent_color, weight: 600, size: .9em)[#format_date(experience.from) — #format_date(experience.to) #h(.2em) #text(size: 1.3em, baseline: 0.12em)[•] #h(.2em) #experience.location]
-
-  #v(0.2em)
-]
+#for job in json("data/additional-experience.json") {
+  entry(
+    [#job.position #at-sign #job.company],
+    [#format-date(job.from) — #format-date(job.to) #meta-sep #job.location],
+    meta-size: .9em,
+  )
+}
