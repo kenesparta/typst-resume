@@ -2,22 +2,37 @@
   {
     "category": "Programming Languages",
     "items": [
+      "Go",
+      "TypeScript",
       "Rust",
-      "Golang",
-      "Python",
-      "TypeScript"
+      "Python"
     ]
   },
   {
-    "category": "Dev Tools",
+    "category": "Backend",
     "items": [
-      "Axum",
-      "Axios",
-      "Tokio",
-      "Clap",
-      "SQLx",
-      "Typst",
-      "Leptos"
+      "net/http",
+      "chi",
+      "gRPC",
+      "OpenTelemetry",
+      "Prometheus",
+      "controller-runtime"
+    ]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Playwright"
+    ]
+  },
+  {
+    "category": "AI Coding Agents",
+    "items": [
+      "Claude Code",
+      "MCP"
     ]
   },
   {

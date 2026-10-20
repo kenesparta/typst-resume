@@ -1,16 +1,18 @@
 [
     {
         "company": "BairesDev LLC",
-        "position": "Senior Software Engineer (Go, Rust)",
+        "position": "Senior Software Engineer (Go)",
         "location": "Remote, US",
         "from": "10-2022",
         "to": "",
-        "short_description": "Manage and enhance partner system integrations based on their requirements.",
+        "short_description": "Build, maintain, and support partner system integrations based on each partner's requirements.",
         "description": [
-            "Led and mentored mid-level and senior engineers to accelerate team integration and boost their proficiency with core system functionality.",
-            "Engineered developer tooling in Rust to automate AWS S3 and DynamoDB data workflows, which improved data verification and increased testing velocity. This tool was rapidly adopted and integrated into the development workflow and CI/CD pipeline.",
             "Engineered the complete foundational infrastructure, development lifecycle, and tooling for a new partner integration, ensuring the secure, reliable display of energy plans.",
-            "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings."
+            "Built automated alerting and monitoring workflows to detect integration errors proactively, and drove incidents to resolution with detailed tickets and immediate code fixes.",
+            "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings.",
+            "Engineered developer tooling to automate AWS S3 and DynamoDB data workflows, improving data verification and testing velocity; it was quickly adopted into the team's development workflow and CI/CD pipeline.",
+            "Used AI coding agents (Claude Code) in daily development to speed up implementation, testing, and code review.",
+            "Mentored mid-level and senior engineers to speed up their onboarding onto the core system."
         ]
     },
     {
@@ -21,10 +23,10 @@
         "to": "09-2022",
         "short_description": "Maintained and enhanced a microservices-based video-on-demand (VOD) platform.",
         "description": [
-            "Led new coworkers through the end-to-end VOD encoding pipeline training and comprehensive quality assurance process, directly reducing team ramp-up time and increasing overall productivity.",
-            "Maintained the current codebase for core VOD processing services (Audio, Video, Subtitles, Media Assets, and DRM) and monitored system health to ensure continuous and stable operation.",
+            "Maintained the Go microservices behind core VOD processing (Audio, Video, Subtitles, Media Assets, and DRM) and monitored system health to ensure continuous and stable operation.",
             "Implemented comprehensive automated testing within the CI/CD framework, enforcing quality control for microservice deployments and preventing issues from reaching production.",
-            "Applied continuous static code analysis and refactoring, improving average code quality scores on the VOD platform microservices."
+            "Applied continuous static code analysis and refactoring, raising code quality scores across VOD services.",
+            "Led new coworkers through the end-to-end VOD encoding pipeline training and comprehensive quality assurance process, directly reducing team ramp-up time and increasing overall productivity."
         ]
     },
     {
