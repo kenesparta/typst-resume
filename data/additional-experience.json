@@ -8,7 +8,8 @@
     "short_description": "Built secure, efficient APIs for government health and agriculture offices.",
     "description": [
       "Architected a private REST API that made document procedures at the Government Health Office more efficient, improving internal workflows and information management.",
-      "Created a private API for the Government Agriculture Office to register and monitor farming production metrics, including seed time, harvest data, and livestock activities."
+      "Created a private API for the Government Agriculture Office to register and monitor farming production metrics, including seed time, harvest data, and livestock activities.",
+      "Architected and configured the network for both offices on a three-tier architecture, with security-focused networking, load balancing, and database isolation to improve availability and security."
     ]
   },
   {
@@ -19,7 +20,7 @@
     "to": "12-2017",
     "short_description": "Developed a construction ERP that keeps every build item accountable for quantity and quality.",
     "description": [
-      "Designed and built the core of an ERP web application that manages construction projects end to end, controlling the quantity and quality standards of every build item."
+      "Designed and built the core of the ERP web application, which manages construction projects end to end."
     ]
   },
   {
@@ -30,7 +31,7 @@
     "to": "12-2016",
     "short_description": "Built a web application to streamline the management of patient orders.",
     "description": [
-      "Architected a web platform for managing patient orders and clinical results, including configuring and securing its cloud infrastructure."
+      "Architected the platform for patient orders and clinical results, including its secure cloud setup."
     ]
   }
 ]

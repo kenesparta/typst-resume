@@ -23,7 +23,7 @@
 // A section entry: title with its meta (dates, place) on the right, an optional
 // subtitle, then bullets. The header is sticky so it never ends a page without
 // at least its first bullet.
-#let entry(title, meta, subtitle: none, meta-size: 1em, bullets: (), gap: 1.7em) = {
+#let entry(title, meta, subtitle: none, meta-size: 1em, bullets: (), gap: 1.4em) = {
   let bullets = bullets.filter(b => b != "")
   let has-bullets = bullets.len() > 0
   block(

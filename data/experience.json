@@ -38,7 +38,8 @@
         "short_description": "Built and optimized secure APIs for construction loan management and on-site inspections.",
         "description": [
             "Designed and deployed a private API for construction loan management with on-site inspection features, following the OpenAPI Specification and architecture best practices.",
-            "Cut CPU usage by 50% by optimizing the API calls behind credential management."
+            "Cut CPU usage by 50% by optimizing the API calls behind credential management.",
+            "Developed a real-time monitoring system that automates network access control for virtual machines."
         ]
     }
 ]

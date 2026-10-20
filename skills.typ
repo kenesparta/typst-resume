@@ -9,6 +9,7 @@
 // Each item is a box so lines wrap between items, never inside one.
 #let skill-card(category) = block(
   width: 100%,
+  breakable: false,
   stroke: (left: 1.5pt + highlight-color.lighten(35%)),
   inset: (left: 8pt, y: 1pt),
   {
@@ -21,6 +22,6 @@
 #grid(
   columns: (1fr, 1fr),
   column-gutter: 1.6em,
-  row-gutter: .9em,
+  row-gutter: .75em,
   ..json("data/skills.json").map(skill-card),
 )

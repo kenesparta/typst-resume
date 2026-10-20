@@ -19,7 +19,7 @@
 
 // Headings carry a built-in 1.4em text scale that em values here would be
 // measured against, so this rule uses absolute sizes.
-#show heading.where(level: 1): it => block(width: 100%, above: 21pt, below: 13pt, {
+#show heading.where(level: 1): it => block(width: 100%, above: 18pt, below: 13pt, {
   box(width: 3.5pt, height: 9pt, radius: 1.75pt, fill: highlight-color)
   h(6pt)
   text(font: "Capriola", fill: primary-color, weight: "regular", size: 11.9pt, it.body)

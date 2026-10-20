@@ -7,8 +7,8 @@
     "description": [
       "Built five Go microservices (catalog, orders, payments, notifications, and a BFF) behind Kong Gateway on GKE to demonstrate routing, JWT and API-key auth, rate limiting, versioning, caching, and canary releases.",
       "Wrote a backend-for-frontend in Go that calls three upstream services in parallel and merges their responses.",
-      "Instrumented the services with OpenTelemetry and Prometheus, so a single request yields a five-span trace in Cloud Trace with its logs linked to it.",
-      "Built a Go load generator that streams live results over SSE (req/s, p95, p99, status codes) and lets the audience drive traffic from their phones."
+      "Instrumented the services with OpenTelemetry and Prometheus: five-span traces in Cloud Trace, linked to logs.",
+      "Built a Go load generator the audience drives from their phones, with live req/s, p95, and p99 over SSE."
     ]
   },
   {
@@ -19,7 +19,7 @@
     "description": [
       "Built a Discord bot for a cloud native community using only the Go standard library.",
       "Implemented an RFC 6455 WebSocket client from scratch (handshake, framing, masking, and close) to hold a persistent session with the Discord gateway.",
-      "Wrote the Discord REST client and slash-command routing, with guild-scoped command registration so changes take effect immediately.",
+      "Wrote the Discord REST client and slash-command routing, with guild-scoped command registration.",
       "Shipped it as a Docker image with secrets encrypted by sops and age, and graceful shutdown on OS signals."
     ]
   }
