@@ -1,10 +1,10 @@
-#import "config.typ": entry, at-sign, meta-sep, format-date
+#import "config.typ": entry, at-sign, meta-sep, format-date, accent-color
 
 = Additional Experience
 
 #for job in json("data/additional-experience.json") {
   entry(
-    [#job.position #at-sign #job.company],
+    [#job.position #at-sign #text(fill: accent-color, job.company)],
     [#format-date(job.from) — #format-date(job.to) #meta-sep #job.location],
     meta-size: .9em,
   )

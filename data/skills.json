@@ -1,6 +1,6 @@
 [
   {
-    "category": "Programming Languages",
+    "category": "Programming",
     "items": [
       "Go",
       "TypeScript",
@@ -29,33 +29,26 @@
     ]
   },
   {
-    "category": "AI Coding Agents",
+    "category": "Cloud",
     "items": [
-      "Claude Code",
-      "MCP"
+      "AWS",
+      "Google Cloud",
+      "DigitalOcean"
     ]
   },
   {
-    "category": "Orchestration",
+    "category": "Infrastructure",
     "items": [
+      "Kubernetes",
       "Docker",
-      "GitHub Actions",
       "Terraform",
-      "K8s",
-      "Apache Kafka",
-      "SaltStack"
+      "GitHub Actions",
+      "SaltStack",
+      "Apache Kafka"
     ]
   },
   {
-    "category": "Cloud Providers",
-    "items": [
-      "Amazon Web Services",
-      "Google Cloud Platform",
-      "Digital Ocean"
-    ]
-  },
-  {
-    "category": "DBMS",
+    "category": "Databases",
     "items": [
       "PostgreSQL",
       "MySQL",
@@ -64,7 +57,14 @@
     ]
   },
   {
-    "category": "Languages",
+    "category": "AI Coding Agents",
+    "items": [
+      "Claude Code",
+      "MCP"
+    ]
+  },
+  {
+    "category": "Spoken",
     "items": [
       "English (Advanced)",
       "Portuguese (Fluent)",

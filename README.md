@@ -73,7 +73,8 @@ After editing, run a build command again to regenerate the PDF.
 ## Customization
 
 - Colors and helpers live in `config.typ`:
-    - `primary-color`, `secondary-color`, `accent-color`
+    - `ink` (body text), `primary-color` (names, headings), `accent-color` (Go teal for text accents and links),
+      `highlight-color` (Gopher blue, decoration only), `muted-color` (dates, places)
     - `format-date` converts `MM-YYYY` strings into "Mon YYYY".
     - `entry` lays out one section entry (title, dates or place, subtitle, bullets) and keeps its header on the same
       page as the first bullet.

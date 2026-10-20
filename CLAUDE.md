@@ -27,7 +27,7 @@ There are no tests or linters. To verify a change, compile it, look at the rende
 
 - `main.typ` holds every document-wide rule: `set document` metadata, page, text, paragraph, block and list settings, and the `show heading.where(level: 1)` rule that styles section titles. It then `#include`s the sections in display order.
 - Sections are real headings (`= Experience`, `= Projects`, …), so they produce PDF bookmarks and stay on the same page as the content after them (headings are sticky by default). The name is a `title` element in `title.typ`.
-- `config.typ` holds the palette (`primary-color`, `secondary-color`, `accent-color`) and helpers: `format-date` (`MM-YYYY` → `Mon YYYY`, empty → `Now`), `mono-link`, `at-sign`, `meta-sep`, and `entry`.
+- `config.typ` holds the palette (`ink`, `primary-color`, `accent-color`, `highlight-color`, `muted-color`; `highlight-color` fails text contrast, so use it only for decoration) and helpers: `format-date` (`MM-YYYY` → `Mon YYYY`, empty → `Now`), `mono-link`, `at-sign`, `meta-sep`, and `entry`.
 - `entry(title, meta, subtitle:, meta-size:, bullets:)` is the single layout for every row in experience, additional experience, projects and education. The header is a `grid` (title left, meta right) in a non-breakable block; when there are bullets it is `sticky`, so a header never ends a page without its first bullet.
 - `title.typ`, `contact.typ` and `intro.typ` have their text hard-coded in the `.typ` file, not in JSON. `data/skills.json` is rendered as plain text joined with `·` in a two-column grid, not as pills, because pills scramble the reading order of text extracted from the PDF.
 

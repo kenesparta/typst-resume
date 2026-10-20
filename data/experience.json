@@ -5,14 +5,14 @@
         "location": "Remote, US",
         "from": "10-2022",
         "to": "",
-        "short_description": "Build, maintain, and support partner system integrations based on each partner's requirements.",
+        "short_description": "Build and support partner integrations end to end, from each partner's requirements to production.",
         "description": [
-            "Engineered the complete foundational infrastructure, development lifecycle, and tooling for a new partner integration, ensuring the secure, reliable display of energy plans.",
-            "Built automated alerting and monitoring workflows to detect integration errors proactively, and drove incidents to resolution with detailed tickets and immediate code fixes.",
-            "Defined project scope and requirements by conducting in-depth reviews of partner API documentation, understanding the technical requirements, and coordinating cross-organizational meetings.",
-            "Engineered developer tooling to automate AWS S3 and DynamoDB data workflows, improving data verification and testing velocity; it was quickly adopted into the team's development workflow and CI/CD pipeline.",
+            "Built the foundation of a new partner integration from scratch (infrastructure, development lifecycle, and tooling) so energy plans display securely and reliably.",
+            "Built automated alerting and monitoring that catches integration errors early, then drove each incident to resolution with detailed tickets and immediate code fixes.",
+            "Defined project scope and requirements from in-depth reviews of partner API documentation, and coordinated cross-organization meetings.",
+            "Built developer tooling that automates AWS S3 and DynamoDB data workflows, speeding up testing and data verification; the team quickly adopted it into its workflow and CI/CD pipeline.",
             "Used AI coding agents (Claude Code) in daily development to speed up implementation, testing, and code review.",
-            "Mentored mid-level and senior engineers to speed up their onboarding onto the core system."
+            "Mentored mid-level and senior engineers, speeding up their onboarding onto the core system."
         ]
     },
     {
@@ -23,10 +23,10 @@
         "to": "09-2022",
         "short_description": "Maintained and enhanced a microservices-based video-on-demand (VOD) platform.",
         "description": [
-            "Maintained the Go microservices behind core VOD processing (Audio, Video, Subtitles, Media Assets, and DRM) and monitored system health to ensure continuous and stable operation.",
-            "Implemented comprehensive automated testing within the CI/CD framework, enforcing quality control for microservice deployments and preventing issues from reaching production.",
-            "Applied continuous static code analysis and refactoring, raising code quality scores across VOD services.",
-            "Led new coworkers through the end-to-end VOD encoding pipeline training and comprehensive quality assurance process, directly reducing team ramp-up time and increasing overall productivity."
+            "Maintained the Go microservices behind core VOD processing (audio, video, subtitles, media assets, and DRM) and monitored their health to keep production stable.",
+            "Added automated testing to the CI/CD pipeline as a quality gate for microservice deployments, catching issues before they reached production.",
+            "Ran continuous static analysis and refactoring, raising code quality scores across the VOD services.",
+            "Trained new engineers on the end-to-end VOD encoding pipeline and QA process, cutting their ramp-up time."
         ]
     },
     {
@@ -35,10 +35,10 @@
         "location": "Remote, US",
         "from": "10-2019",
         "to": "08-2021",
-        "short_description": "Optimized loan management system and on-site inspection APIs with enhanced security.",
+        "short_description": "Built and optimized secure APIs for construction loan management and on-site inspections.",
         "description": [
-            "Architected and deployed a private API for construction loan management, integrating on-site inspection functionality and adhering to the Open API Specification and architecture's best practices principles.",
-            "Significantly optimized API call efficiency for credential management, resulting in a 50% reduction in CPU usage."
+            "Designed and deployed a private API for construction loan management with on-site inspection features, following the OpenAPI Specification and architecture best practices.",
+            "Cut CPU usage by 50% by optimizing the API calls behind credential management."
         ]
     }
 ]
