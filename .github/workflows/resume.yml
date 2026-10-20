@@ -5,39 +5,45 @@ on:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+'
 
-permissions:
-  contents: read
-  id-token: write
+# Deny everything by default; the job asks only for what it needs.
+permissions: {}
 
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      id-token: write # OIDC token to assume the AWS role
     env:
       PDF_FILENAME: ken_esparta_cv.pdf
       AWS_REGION: us-east-1
 
+    # Actions are pinned to commit SHAs; Dependabot keeps the SHAs and version comments current.
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: Install Typst
-        uses: typst-community/setup-typst@v3
+        uses: typst-community/setup-typst@fee4b65b091cc546f02ce3be15fad8760f38a108 # v5.3.0
 
       - name: Build PDF using Makefile
         run: make gen/build
 
       - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: resume-pdf
           path: ${{ env.PDF_FILENAME }}
+          if-no-files-found: error
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Upload PDF to S3
-        run: |
-          aws s3 cp ${{ env.PDF_FILENAME }} s3://cdn.kenesparta.dev/cv/ --cache-control "public, max-age=3600"
+        run: aws s3 cp "$PDF_FILENAME" s3://cdn.kenesparta.dev/cv/ --cache-control "public, max-age=3600"

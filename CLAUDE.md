@@ -52,4 +52,6 @@ There are no tests or linters. To verify a change, compile it, look at the rende
 
 Pushing a tag that matches `vX.Y.Z` triggers `.github/workflows/resume.yml`. The workflow runs `make gen/build`, uploads the PDF as a workflow artifact and copies it to the public bucket `s3://cdn.kenesparta.dev/cv/` through an AWS OIDC role. A tag push therefore publishes the CV, so only tag when the owner asks.
 
+Workflow actions are pinned to full commit SHAs with a `# vX.Y.Z` comment, and Dependabot (`.github/dependabot.yml`) proposes weekly updates after a 7-day cooldown. Keep that format when adding or changing an action. CodeQL code scanning for the workflows runs through GitHub's default setup, so there is no CodeQL workflow file.
+
 Commit messages follow the `feat:` / `fix:` prefix style.
