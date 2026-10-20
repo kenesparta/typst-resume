@@ -1,18 +1,26 @@
-#import "config.typ": primary-color, highlight-color
+#import "config.typ": accent-color, highlight-color, muted-color
 
 = Skills
 
-#let sep = [#h(.45em)#text(fill: highlight-color, size: .8em)[•]#h(.45em)]
+#let sep = text(fill: muted-color)[, ]
 
-// Plain text (not pills) so text extraction keeps each category in reading order.
-// Each item is a box so a row only wraps between items, never inside one.
+// One card per category, two per row. Items stay plain text (not pills) and the
+// label keeps the body text size: both keep text extraction in reading order.
+// Each item is a box so lines wrap between items, never inside one.
+#let skill-card(category) = block(
+  width: 100%,
+  stroke: (left: 1.5pt + highlight-color.lighten(35%)),
+  inset: (left: 8pt, y: 1pt),
+  {
+    block(below: .4em, text(fill: accent-color, weight: 700, category.category))
+    category.items.filter(i => i != "").map(box).join(sep)
+  },
+)
+
 #set par(justify: false)
 #grid(
-  columns: (auto, 1fr),
-  inset: (x: .6em, y: .5em),
-  fill: (_, y) => if calc.even(y) { highlight-color.lighten(91%) },
-  ..json("data/skills.json").map(c => (
-    text(fill: primary-color, weight: 600, c.category),
-    c.items.filter(i => i != "").map(box).join(sep),
-  )).flatten(),
+  columns: (1fr, 1fr),
+  column-gutter: 1.6em,
+  row-gutter: .9em,
+  ..json("data/skills.json").map(skill-card),
 )

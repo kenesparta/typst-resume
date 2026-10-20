@@ -36,7 +36,7 @@ The generated PDF will appear in the project root.
 - `contact.typ` — Contact links and social info.
 - `intro.typ` — Short professional summary.
 - `experience.typ` — Work experience section, rendered from JSON.
-- `additional-experience.typ` — Earlier roles, one line each, rendered from JSON.
+- `additional-experience.typ` — Earlier roles, rendered from JSON.
 - `projects.typ` — Selected projects, rendered from JSON.
 - `education.typ` — Education history, rendered from JSON.
 - `skills.typ` — Skills by category, rendered from JSON.
@@ -63,10 +63,11 @@ Update the JSON files in `data/` to change content. Keys are straightforward and
 - education.json
     - Fields per entry: `school`, `location`, `degree`, `from`, `to`
 - additional-experience.json
-    - Fields per role: `company`, `position`, `location`, `from`, `to`
+    - Same fields as experience.json: `company`, `position`, `location`, `from`, `to`, `short_description`,
+      `description`
 - skills.json
-    - Array of objects with: `category` and `items` (array of strings), rendered as plain text so ATS parsers read
-      each category in order
+    - Array of objects with: `category` and `items` (array of strings), rendered as two columns of cards in plain
+      text so ATS parsers read each category with its items
 
 After editing, run a build command again to regenerate the PDF.
 

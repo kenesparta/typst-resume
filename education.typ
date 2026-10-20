@@ -7,5 +7,6 @@
     [#school.school#text(fill: muted-color, weight: 500)[, #school.location]],
     [#format-date(school.from) — #format-date(school.to)],
     subtitle: text(weight: 500, school.degree),
+    gap: 1.35em,
   )
 }
