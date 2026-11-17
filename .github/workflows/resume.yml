@@ -46,4 +46,6 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Upload PDF to S3
-        run: aws s3 cp "$PDF_FILENAME" s3://cdn.kenesparta.dev/cv/ --cache-control "public, max-age=3600"
+        # kenesparta-cdn is the bucket behind cdn.kenesparta.dev since the account
+        # move (personal-infra N10); the old one was named after the hostname.
+        run: aws s3 cp "$PDF_FILENAME" s3://kenesparta-cdn/cv/ --cache-control "public, max-age=3600"
